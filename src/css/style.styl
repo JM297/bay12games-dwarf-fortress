@@ -1,0 +1,106 @@
+// Imports
+@import "slides.styl"
+@import "pagination.styl"
+
+// Variables
+corn = #FFF8DC
+
+// Element Styling
+html, body
+  margin 0
+  height 100%
+  background-color corn
+  font-family Helvetica Neue, Helvetica, Arial, sans-serif
+
+nav
+  .navLogo
+    width 85%
+    @media screen and (min-width 200px) and (max-width 500px){
+      width 140%
+    }
+  .brand-logo
+    @media screen and (min-width 200px){
+      width 55%
+    }
+    @media screen and (min-width 200px) and (max-width 500px){
+      width 60%
+      font-size 0
+    }
+    @media screen and (min-width 994px){
+      width 40%
+    }
+    @media screen and (min-width 994px) and (max-width 1230px){
+      width 35%
+    }
+
+.features
+  padding-left: 25px;
+  li
+    list-style-type disc !important
+
+.logs
+  a
+    margin-left 5px
+    margin-right 5px
+
+h1
+ .header
+  font-size 3.4rem !important
+
+h5
+  img
+   width 100%
+
+footer
+  text-align center
+  a
+    margin-right 10px
+    margin-left 10px
+  .socialMedia
+    display flex
+    justify-content center
+    a
+      margin-right: 10px;
+      margin-left: 10px;
+      opacity 0.75
+    a:hover
+      opacity 1
+  .footer-copyright
+    .container
+      margin-bottom 15px
+
+[type="radio"]:not(:checked), [type="radio"]:checked
+  position relative
+  opacity 1
+  pointer-events fill
+
+.active
+  background-color rgba(0,0,0,0.1)
+
+#facebook
+  width 80px
+  margin-right 10px
+  margin-left 10px
+#patreon
+  width 80px
+  margin-right 10px
+  margin-left 10px
+#twitter
+  width 80px
+  margin-right 10px
+  margin-left 10px
+
+#mailing, #contact
+  @media screen and (max-width: 575px){
+    width 100%
+  }
+  label
+    color black
+    font-size 1em
+
+::placeholder
+  color black
+
+.pagination
+  text-align center
+  a { cursor: pointer; }

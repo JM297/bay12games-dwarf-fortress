@@ -1,0 +1,235 @@
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.welcome {
+  margin-bottom: 20px;
+}
+.welcome h1 {
+  text-align: center;
+  font-size: 56px;
+}
+.welcome #tagline {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+.mySlides img {
+  width: 75%;
+}
+.mySlides p {
+  text-align: center;
+}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+@-moz-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.list-wrapper {
+  padding: 15px;
+  overflow: hidden;
+}
+.list-item {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.list-item p {
+  margin: 0;
+  text-align: justify;
+}
+.list-item h4 {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+.simple-pagination ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.simple-pagination li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.simple-pagination li a,
+.simple-pagination li span {
+  color: #666;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #eee;
+  background-color: #fff;
+  font-size: inherit;
+  position: relative;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #fff8dc;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+nav .navLogo {
+  width: 85%;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  nav .navLogo {
+    width: 140%;
+  }
+}
+@media screen and (min-width: 200px) {
+  nav .brand-logo {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  nav .brand-logo {
+    width: 60%;
+    font-size: 0;
+  }
+}
+@media screen and (min-width: 994px) {
+  nav .brand-logo {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 994px) and (max-width: 1230px) {
+  nav .brand-logo {
+    width: 35%;
+  }
+}
+.features {
+  padding-left: 25px;
+}
+.features li {
+  list-style-type: disc !important;
+}
+.logs a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+h1 .header {
+  font-size: 3.4rem !important;
+}
+h5 img {
+  width: 100%;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+footer .socialMedia {
+  display: flex;
+  justify-content: center;
+}
+footer .socialMedia a {
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: 0.75;
+}
+footer .socialMedia a:hover {
+  opacity: 1;
+}
+footer .footer-copyright .container {
+  margin-bottom: 15px;
+}
+[type="radio"]:not(:checked),
+[type="radio"]:checked {
+  position: relative;
+  opacity: 1;
+  pointer-events: fill;
+}
+.active {
+  background-color: rgba(0,0,0,0.1);
+}
+#facebook {
+  width: 80px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#patreon {
+  width: 80px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#twitter {
+  width: 80px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media screen and (max-width: 575px) {
+  #mailing,
+  #contact {
+    width: 100%;
+  }
+}
+#mailing label,
+#contact label {
+  color: #000;
+  font-size: 1em;
+}
+::placeholder {
+  color: #000;
+}
+.pagination {
+  text-align: center;
+}
+.pagination a {
+  cursor: pointer;
+}
